@@ -6,12 +6,12 @@
 </head>
 <body>
 <header>
-	<img src="image/Game-of-Thrones-Logo-Free-Download-PNG.png" class="logo">
+	<a href="index.php"><img src="image/Game-of-Thrones-Logo-Free-Download-PNG.png" class="logo"></a>
 	<nav>
-		<a href="#">Home</a>
+		<a href="#">Login</a>
 		<a href="#">Content</a>
 		<a href="#">Link 3</a>
-		<a href="#">About</a>
+		<a href="#about">About</a>
 		<a href="#">Contact</a>
 	</nav>
 </header>
