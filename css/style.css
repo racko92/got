@@ -75,7 +75,7 @@ nav a:hover{
 .intro-button{
 	margin: 20px;
 	padding: 10px;
-	border: none;
+	border: 1px solid #373737;
 	border-radius: 5px;
 	background-color: #373737;
 	color: white;
@@ -84,7 +84,7 @@ nav a:hover{
 .intro-button:hover{
 	background-color: black;
 	color: white;
-	border: 1px solid #373737;
+	transition: 400ms;
 }
 .about-container{
 	position: relative;
