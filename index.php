@@ -1,14 +1,14 @@
 <?php 
 	include 'header.php';
 ?>
-<section class="intro-container">
+<section id="intro" class="intro-container">
 	<div class="video-container">
 		<video poster="image/GOT S7 Background.png" class="background-video" playsinline autoplay muted loop>
 			<source src="video/Game of Thrones Season 7 Official Tease Sigils.mp4" type="video/mp4">
 			<source src="video/Game of Thrones Season 7 Official Tease Sigils" type="video/webm">
 		</video>
 	</div>
-	<div class="intro-content-wrapper">
+	<div class="intro-content-wrapper" id="intro-content-wrapper">
 		<div class="intro-content">
 			<h2>Dummy Header</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -34,7 +34,7 @@
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		</div>
-		<div class="about-content">
+		<div class="0about-content">
 			<h2>Our goal...</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

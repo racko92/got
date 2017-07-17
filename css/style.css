@@ -42,7 +42,8 @@ nav a{
 	color: white;
 	padding: 10px 20px 10px 20px;
 	border-radius: 5px;
-	font-size: 12px;
+	font-size: 16px;
+	transition: 500ms;
 }
 nav a:hover{
 	background:  #373737;
@@ -74,7 +75,7 @@ nav a:hover{
 	color: white;
 	transform: translate(-50%, -50%);
 	top: 40%;
-	left: 70%;
+	left: 500%;
 }
 .intro-button{
 	margin: 20px;
