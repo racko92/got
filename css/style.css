@@ -23,15 +23,18 @@ header{
 	justify-content: space-between;
 	align-items: center;
 	flex-wrap: wrap;
-	background: rgba(0, 0, 0, 0.2);
 	width: 100%;
 	z-index: 20;
+}
+.header-scroll{
+	background: rgba(0, 0, 0, 0.7);
+	transition: 500ms;
+	border-bottom: 1px solid black;
 }
 nav{
 	display: flex;
 	justify-content: space-around;
 	margin-right: 10px;
-
 }
 nav a{
 	text-decoration: none;
@@ -46,10 +49,11 @@ nav a:hover{
 	font-weight: bolder;
 	transition: 400ms;
 }
-.logo{
+.logo-normal{
 	margin-left: 20px;
 	color: white;
-	height: 50px;
+	height: 70px;
+	transition: 500ms;
 }
 .video-container{
 
@@ -92,14 +96,19 @@ nav a:hover{
 	width: 100%;
 }
 .about-content-wrapper{
-	width: 100%;
+	width: 60%;
 	padding-top: 40px;
 	padding-bottom: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: auto;
+
 }
 .about-content{
 	text-align: center;
-	width: 60%;
-	margin: auto;
+	width: 50%;
 }
 footer{
 	text-align: center;
